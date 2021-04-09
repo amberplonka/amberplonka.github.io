@@ -1,0 +1,17 @@
+<Gigatrees>
+
+  <!-- The path to the GEDCOM file must be initialized -->
+  <Main>
+    <GedcomFile> plonka.ged   </GedcomFile>
+    <OutputPath> C:\Users\Plonka\Desktop\amberplonka.github.io         </OutputPath>
+  </Main>
+  
+  <!-- The Site Title needs to be initialized -->
+  <Setup>
+   <WebsiteURL>	.             					</WebsiteURL>
+   <SiteTitle>	Plonka Ancestry     				</SiteTitle>
+   <HomePage>  	index.html    					</HomePage>
+   <Favicon>   	https://i.imgur.com/A1WjsOg.png	</Favicon>
+  </Setup>
+	  
+</Gigatrees>

@@ -1,0 +1,189 @@
+#gt-person-chart				{padding: 20px 20px 20px 20px; position:relative;}
+#gt-person-chart 				a {white-space: normal}
+.gt-chart-node                 	{padding:2px; text-align:left; font-size:8pt; font-family:Arial, Helvetica, sans-serif; vertical-align:middle; border-top-width:1px; border-right-width:1px; border-bottom-width:1px; border-left-width:1px; border-top-style:solid; border-right-style:solid; border-bottom-style:solid; border-left-style:solid; border-image:initial;}
+.gt-chart-node                 	{position:absolute; z-index:5; overflow:hidden; height:36px; width:140px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; -khtml-border-radius:5px;}
+.gt-chart-nodeshadow           	{position:absolute; z-index:1; overflow:hidden; height:33px; width:137px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; -khtml-border-radius:5px;}
+.gt-chart-connector            	{position:absolute; z-index:3; overflow:hidden;}
+.gt-chart-arrow                	{position:absolute; z-index:5;}
+#gt-chart-legend-uncertain     	{border:1px solid}
+.gt-chart-arrow0 			   	{left: 5px;}
+.gt-chart-node0                	{left: 23px;}
+.gt-chart-nodeshadow0          	{left: 27px;}
+.gt-chart-connector0a          	{left:163px; height:1px; width:5px;}
+.gt-chart-connector0b          	{left:167px; height:1px; width:5px;}
+.gt-chart-connector0c          	{left:167px; height:40px; width:1.1px;}
+#gt-chart-arrow2 				{top: 293px; left: 330px;}
+#gt-chart-arrow3               	{top:341px; left:330px; width:16px; height:10px;}
+#gt-chart-node1                	{top:310px; left:172px;}
+#gt-chart-nodeshadow1          	{top:314px; left:176px;}
+#gt-chart-connector1           	{top:328px; left:312px; height:  1px; width:5px;}
+#gt-chart-connector1-2a        	{top:168px; left:316px; height:160px; width:1.1px;}
+#gt-chart-connector1-2b        	{top:168px; left:316px; height:  1px; width:5px;}
+#gt-chart-connector1-3a        	{top:328px; left:316px; height:160px; width:1.1px;}
+#gt-chart-connector1-3b        	{top:488px; left:316px; height:  1px; width:5px;}
+#gt-chart-node2                	{top:150px; left:321px;}
+#gt-chart-nodeshadow2          	{top:154px; left:324px;}
+#gt-chart-connector2           	{top:168px; left:461px; height: 1px; width:5px;}
+#gt-chart-connector2-4a        	{top: 88px; left:465px; height:80px; width:1.1px;}
+#gt-chart-connector2-4b        	{top: 88px; left:465px; height: 1px; width:5px;}
+#gt-chart-connector2-5a        	{top:168px; left:465px; height:80px; width:1.1px;}
+#gt-chart-connector2-5b        	{top:248px; left:465px; height: 1px; width:5px;}
+#gt-chart-node3                	{top:470px; left:321px;}
+#gt-chart-nodeshadow3          	{top:474px; left:324px;}
+#gt-chart-connector3           	{top:488px; left:461px; height:  1px; width:5px;}
+#gt-chart-connector3-6a        	{top:408px; left:465px; height: 80px; width:1.1px;}
+#gt-chart-connector3-6b        	{top:408px; left:465px; height:  1px; width:5px;}
+#gt-chart-connector3-7a        	{top:488px; left:465px; height: 80px; width:1.1px;}
+#gt-chart-connector3-7b        	{top:568px; left:465px; height:  1px; width:5px;}
+#gt-chart-node4                	{top: 70px; left:470px;}
+#gt-chart-nodeshadow4          	{top: 74px; left:473px;}
+#gt-chart-connector4           	{top: 88px; left:610px; height:1px; width:5px;}
+#gt-chart-connector4-8a        	{top: 48px; left:614px; height:40px; width:1.1px;}
+#gt-chart-connector4-8b        	{top: 48px; left:614px; height:1px; width:5px;}
+#gt-chart-connector4-9a        	{top: 88px; left:614px; height:40px; width:1.1px;}
+#gt-chart-connector4-9b        	{top:128px; left:614px; height:1px; width:5px;}
+#gt-chart-node5                	{top:230px; left:470px;}
+#gt-chart-nodeshadow5          	{top:234px; left:473px;}
+#gt-chart-connector5           	{top:248px; left:610px; height:1px; width:5px;}
+#gt-chart-connector5-10a       	{top:208px; left:614px; height:40px; width:1.1px;}
+#gt-chart-connector5-10b       	{top:208px; left:614px; height:1px; width:5px;}
+#gt-chart-connector5-11a       	{top:248px; left:614px; height:40px; width:1.1px;}
+#gt-chart-connector5-11b       	{top:288px; left:614px; height:1px; width:5px;}
+#gt-chart-node6                	{top:390px; left:470px;}
+#gt-chart-nodeshadow6          	{top:394px; left:473px;}
+#gt-chart-connector6           	{top:408px; left:610px; height:1px; width:5px;}
+#gt-chart-connector6-12a       	{top:368px; left:614px; height:40px; width:1.1px;}
+#gt-chart-connector6-12b       	{top:368px; left:614px; height:1px; width:5px;}
+#gt-chart-connector6-13a       	{top:408px; left:614px; height:40px; width:1.1px;}
+#gt-chart-connector6-13b       	{top:448px; left:614px; height:1px; width:5px;}
+#gt-chart-node7                	{top:550px; left:470px;}
+#gt-chart-nodeshadow7          	{top:554px; left:473px;}
+#gt-chart-connector7           	{top:568px; left:610px; height:1px; width:5px;}
+#gt-chart-connector7-14a       	{top:528px; left:614px; height:40px; width:1.1px;}
+#gt-chart-connector7-14b       	{top:528px; left:614px; height:1px; width:5px;}
+#gt-chart-connector7-15a       	{top:568px; left:614px; height:40px; width:1.1px;}
+#gt-chart-connector7-15b       	{top:608px; left:614px; height:1px; width:5px;}
+#gt-chart-node8                	{top: 30px; left:619px;}
+#gt-chart-nodeshadow8          	{top: 34px; left:622px;}
+#gt-chart-connector8           	{top: 48px; left:759px; height:1px; width:5px;}
+#gt-chart-connector8-16a       	{top: 28px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector8-16b       	{top: 28px; left:763px; height:1px; width:5px;}
+#gt-chart-connector8-17a       	{top: 48px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector8-17b       	{top: 68px; left:763px; height:1px; width:5px;}
+#gt-chart-node9                	{top:110px; left:619px;}
+#gt-chart-nodeshadow9          	{top:114px; left:622px;}
+#gt-chart-connector9           	{top:128px; left:759px; height:1px; width:5px;}
+#gt-chart-connector9-18a       	{top:108px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector9-18b       	{top:108px; left:763px; height:1px; width:5px;}
+#gt-chart-connector9-19a       	{top:128px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector9-19b       	{top:148px; left:763px; height:1px; width:5px;}
+#gt-chart-node10               	{top:190px; left:619px;}
+#gt-chart-nodeshadow10         	{top:194px; left:622px;}
+#gt-chart-connector10          	{top:208px; left:759px; height:1px; width:5px;}
+#gt-chart-connector10-20a      	{top:188px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector10-20b      	{top:188px; left:763px; height:1px; width:5px;}
+#gt-chart-connector10-21a      	{top:208px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector10-21b      	{top:228px; left:763px; height:1px; width:5px;}
+#gt-chart-node11               	{top:270px; left:619px;}
+#gt-chart-nodeshadow11         	{top:274px; left:622px;}
+#gt-chart-connector11          	{top:288px; left:759px; height:1px; width:5px;}
+#gt-chart-connector11-22a      	{top:268px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector11-22b      	{top:268px; left:763px; height:1px; width:5px;}
+#gt-chart-connector11-23a      	{top:288px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector11-23b      	{top:308px; left:763px; height:1px; width:5px;}
+#gt-chart-node12               	{top:350px; left:619px;}
+#gt-chart-nodeshadow12         	{top:354px; left:622px;}
+#gt-chart-connector12          	{top:368px; left:759px; height:1px; width:5px;}
+#gt-chart-connector12-24a      	{top:348px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector12-24b      	{top:348px; left:763px; height:1px; width:5px;}
+#gt-chart-connector12-25a      	{top:368px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector12-25b      	{top:388px; left:763px; height:1px; width:5px;}
+#gt-chart-node13               	{top:430px; left:619px;}
+#gt-chart-nodeshadow13         	{top:434px; left:622px;}
+#gt-chart-connector13          	{top:448px; left:759px; height:1px; width:5px;}
+#gt-chart-connector13-26a      	{top:428px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector13-26b      	{top:428px; left:763px; height:1px; width:5px;}
+#gt-chart-connector13-27a      	{top:448px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector13-27b      	{top:468px; left:763px; height:1px; width:5px;}
+#gt-chart-node14               	{top:510px; left:619px;}
+#gt-chart-nodeshadow14         	{top:514px; left:622px;}
+#gt-chart-connector14          	{top:528px; left:759px; height:1px; width:5px;}
+#gt-chart-connector14-28a      	{top:508px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector14-28b      	{top:508px; left:763px; height:1px; width:5px;}
+#gt-chart-connector14-29a      	{top:528px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector14-29b      	{top:548px; left:763px; height:1px; width:5px;}
+#gt-chart-node15               	{top:590px; left:619px;}
+#gt-chart-nodeshadow15         	{top:594px; left:622px;}
+#gt-chart-connector15          	{top:608px; left:759px; height:1px; width:5px;}
+#gt-chart-connector15-30a      	{top:588px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector15-30b      	{top:588px; left:763px; height:1px; width:5px;}
+#gt-chart-connector15-31a      	{top:608px; left:763px; height:20px; width:1.1px;}
+#gt-chart-connector15-31b      	{top:628px; left:763px; height:1px; width:5px;}
+#gt-chart-node16               	{top: 10px; left:768px;}
+#gt-chart-nodeshadow16         	{top: 14px; left:772px;}
+#gt-chart-arrow16              	{top: 19px; left:918px;}
+#gt-chart-node17               	{top: 50px; left:768px;}
+#gt-chart-nodeshadow17         	{top: 54px; left:772px;}
+#gt-chart-arrow17              	{top: 59px; left:918px;}
+#gt-chart-node18               	{top: 90px; left:768px;}
+#gt-chart-nodeshadow18         	{top: 94px; left:772px;}
+#gt-chart-arrow18              	{top: 99px; left:918px;}
+#gt-chart-node19               	{top:130px; left:768px;}
+#gt-chart-nodeshadow19         	{top:134px; left:772px;}
+#gt-chart-arrow19              	{top:139px; left:918px;}
+#gt-chart-node20               	{top:170px; left:768px;}
+#gt-chart-nodeshadow20         	{top:174px; left:772px;}
+#gt-chart-arrow20              	{top:179px; left:918px;}
+#gt-chart-node21               	{top:210px; left:768px;}
+#gt-chart-nodeshadow21         	{top:214px; left:772px;}
+#gt-chart-arrow21              	{top:219px; left:918px;}
+#gt-chart-node22               	{top:250px; left:768px;}
+#gt-chart-nodeshadow22         	{top:254px; left:772px;}
+#gt-chart-arrow22              	{top:259px; left:918px;}
+#gt-chart-node23               	{top:290px; left:768px;}
+#gt-chart-nodeshadow23         	{top:294px; left:772px;}
+#gt-chart-arrow23              	{top:299px; left:918px;}
+#gt-chart-node24               	{top:330px; left:768px;}
+#gt-chart-nodeshadow24         	{top:334px; left:772px;}
+#gt-chart-arrow24              	{top:339px; left:918px;}
+#gt-chart-node25               	{top:370px; left:768px;}
+#gt-chart-nodeshadow25         	{top:374px; left:772px;}
+#gt-chart-arrow25              	{top:379px; left:918px;}
+#gt-chart-node26               	{top:410px; left:768px;}
+#gt-chart-nodeshadow26         	{top:414px; left:772px;}
+#gt-chart-arrow26              	{top:419px; left:918px;}
+#gt-chart-node27               	{top:450px; left:768px;}
+#gt-chart-nodeshadow27         	{top:454px; left:772px;}
+#gt-chart-arrow27              	{top:459px; left:918px;}
+#gt-chart-node28               	{top:490px; left:768px;}
+#gt-chart-nodeshadow28         	{top:494px; left:772px;}
+#gt-chart-arrow28              	{top:499px; left:918px;}
+#gt-chart-node29               	{top:530px; left:768px;}
+#gt-chart-nodeshadow29         	{top:534px; left:772px;}
+#gt-chart-arrow29              	{top:539px; left:918px;}
+#gt-chart-node30               	{top:570px; left:768px;}
+#gt-chart-nodeshadow30         	{top:574px; left:772px;}
+#gt-chart-arrow30              	{top:579px; left:918px;}
+#gt-chart-node31               	{top:610px; left:768px;}
+#gt-chart-nodeshadow31         	{top:614px; left:772px;}
+#gt-chart-arrow31              	{top:619px; left:918px;}
+
+.gt-chart-node 					{border-color: #949494;}
+.gt-chart-connector 			{background-color:#949494;}
+.gt-chart-node-bkgnd5          	{background-color:#f5ecce;}
+.gt-chart-node-bkgnd4          	{background-color:#f7f2e0;}
+.gt-chart-node-bkgnd3          	{background-color:#fbf8ef;}
+.gt-chart-node-bkgnd2          	{background-color:#fbfbef;}
+.gt-chart-node-bkgnd1          	{background-color:#ffffff;}
+.gt-chart-node-bkgnd0          	{background-color:#f5ecce;}
+.gt-chart-node-uncertain       	{background-color:#aaaaaa;}
+.gt-chart-node-uncertain a     	{color:#fff;}
+.gt-chart-node-unknown         	{background-color:#efefef;}
+.gt-chart-nodeshadow           	{background-color:#444;}
+#gt-chart-legend-uncertain     	{background-color:#aaaaaa; border-color: #666;}
+.gt-chart-arrow0 a, .gt-chart-arrow0 a:link,
+#gt-chart-arrow3 a, #gt-chart-arrow3 a:link,
+#gt-chart-arrow2 a, #gt-chart-arrow2 a:link {color: #000;}
+.gt-chart-arrow0 a:hover, .gt-chart-arrow0 a:focus,
+#gt-chart-arrow3 a:hover, #gt-chart-arrow3 a:focus,
+#gt-chart-arrow2 a:hover , #gt-chart-arrow2 a:focus {color: gray;}

@@ -1,0 +1,18 @@
+<Gigatrees>
+
+<Setup> 
+
+ <DropFooter> <![CDATA[ 
+    <!-- Tablesorter --> 
+	<script type="text/javascript" src="%PluginsPath%tablesorter/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('.tablesorter').tablesorter(); 
+		});
+	</script>	
+]]>
+ </DropFooter>
+
+</Setup> 
+ 
+</Gigatrees>

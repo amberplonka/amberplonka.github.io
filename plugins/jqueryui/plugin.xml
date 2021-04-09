@@ -1,0 +1,16 @@
+<Gigatrees>
+
+<Setup> 
+ <DropFooter> <![CDATA[ 
+    <!-- JQuery UI 1.12.1 : Must be loaded before Boostrap JS -->
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script>
+		/*** Handle naming conflict between jQuery UI and Bootstrap ***/
+		$.widget.bridge('uibutton', $.ui.button);
+		$.widget.bridge('uitooltip', $.ui.tooltip);
+	</script> 	
+]]>
+ </DropFooter>
+</Setup> 
+ 
+</Gigatrees>

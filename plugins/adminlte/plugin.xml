@@ -1,0 +1,22 @@
+<Gigatrees>
+
+<Setup> 
+
+ <DropHeader> <![CDATA[ 
+    <!-- Admin LTE --> 
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+	<link rel="stylesheet" href="%PluginsPath%adminlte/adminlte.min.css">
+	<link rel="stylesheet" href="%PluginsPath%adminlte/skin-blue.min.css">	
+]]>
+ </DropHeader>
+ 
+ <DropFooter> <![CDATA[ 
+    <!-- Admin LTE --> 
+	<script type="text/javascript" src="%PluginsPath%adminlte/adminlte.min.js"></script>
+	<script type="text/javascript" src="%PluginsPath%adminlte/adminlte-handler.js"></script>
+]]>
+ </DropFooter>
+ 
+</Setup> 
+ 
+</Gigatrees>

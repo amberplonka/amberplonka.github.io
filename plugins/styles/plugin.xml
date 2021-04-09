@@ -1,0 +1,15 @@
+<Gigatrees>
+
+<Setup> 
+ <DropHeader> <![CDATA[ 
+    <!-- Gigatrees Styles --> 
+    <link rel="stylesheet" href="%PluginsPath%styles/styles.css">
+    <link rel="stylesheet" href="%PluginsPath%styles/blog.css">
+    <link rel="stylesheet" href="%PluginsPath%styles/pedcharts.css">
+    <link rel="stylesheet" href="%PluginsPath%styles/dnacharts.css">
+    <link rel="stylesheet" href="%PluginsPath%styles/signin.css">	
+]]>
+ </DropHeader>
+</Setup> 
+ 
+</Gigatrees>

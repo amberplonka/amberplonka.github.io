@@ -1,0 +1,21 @@
+<Gigatrees>
+
+<Setup> 
+
+ <DropHeader> <![CDATA[ 
+    <!-- Fancy Box --> 
+   	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="%PluginsPath%fancybox/fancybox.css">
+]]>
+ </DropHeader>
+ 
+ <DropFooter> <![CDATA[ 
+    <!-- Fancy Box --> 
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.1/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="%PluginsPath%fancybox/fancybox.js"></script>
+]]>
+ </DropFooter>
+ 
+</Setup> 
+ 
+</Gigatrees>

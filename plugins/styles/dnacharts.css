@@ -1,0 +1,69 @@
+.ctree 								{position: relative; margin: 10px 10px 10px 10px;}
+.ctree-packed 						{margin-bottom: 20px;}
+.ctree .cbranch 					{position: relative;  margin-left: 225px;}
+.ctree-narrow .cbranch 				{margin-left: 190px;}
+.ctree-condensed .cbranch			{margin-left: 140px;}
+.ctree-compact .cbranch 			{margin-left: 120px;}
+.ctree-packed .cbranch 				{margin-left: 100px;}
+.ctree .cbranch:before 				{content: ""; border-top: 1.5px solid #949494; position: absolute; top: 50%; margin-top: 1px; width: 25px; left: -75px;}
+.ctree-narrow .cbranch:before		{width: 20px; left: -40px;}
+.ctree-condensed .cbranch:before, .ctree-compact .cbranch:before, .ctree-packed .cbranch:before  {width: 10px; left: -20px;}
+.ctree .cline 						{position: relative; min-height: 60px;}
+.ctree-condensed .cline 			{min-height: 80px;}
+.ctree-compact .cline, .ctree-packed .cline {min-height: 100px;}
+.ctree .cline:before 				{content: ""; height: 100%; border-left: 1.5px solid #949494; position: absolute; left: -50px;}				
+.ctree-narrow .cline:before 		{left: -20px;}
+.ctree-condensed .cline:before, .ctree-compact .cline:before, .ctree-packed .cline:before {left: -10px;}
+.ctree .cline:after 				{content: ""; width: 50px; border-top: 1.5px solid #949494; position: absolute; left: -50px; top: 50%; margin-top: 1px;}
+.ctree-narrow .cline:after 			{width: 20px; left: -20px;}
+.ctree-condensed .cline:after, .ctree-compact .cline:after, .ctree-packed .cline:after  {width: 10px; left: -10px;}
+.ctree .cline:first-child:before	{width: 10px; height: 50%; top: 50%; margin-top: 2px; border-radius: 10px 0 0 0; border-left: 1px solid #949494;}
+.ctree .cline:first-child:after 	{height: 10px; border-radius: 10px 0 0 0;}
+.ctree .cline:last-child:before 	{width: 10px; height: 50%; border-radius: 0 0 0 10px;}
+.ctree .cline:last-child:after 		{height: 10px; border-top: none; border-bottom: 1.5px solid #949494; border-radius: 0 0 0 10px; margin-top: -9px;}
+.ctree .cline.csole:before 			{display: none;}
+.ctree .cline.csole:after 			{width: 50px; height: 0; margin-top: 1px; border-radius: 0;}
+.ctree-narrow .cline.csole:after 	{width: 20px;}
+.ctree-condensed .cline.csole:after, .ctree-compact .cline.csole:after, .ctree-packed .cline.csole:after {width: 10px;}
+.ctree .cline.chalf:not(.csole):first-child:after, .ctree .cline.chalf:not(:last-child):after {border-top: 2px dotted #f66e6e;}
+.ctree .cline.chalf:last-child:after {border-bottom: 2px dotted #f66e6e;}
+.ctree .cnode 						{display: block; position: absolute; left: 0; top: 50%; margin-top: -15px; max-width: 150px; min-width: 150px; padding: 2px; line-height: 20px; color: #333; background-color: #f5ecce; border: 1px solid #949494; border-radius: 5px; font-size: 0.8em; text-align: left; vertical-align: middle;}
+.ctree-condensed .cnode 			{max-width: 120px; min-width: 120px;}
+.ctree-compact .cnode 				{max-width: 100px; min-width: 100px;}
+.ctree-packed .cnode 				{max-width: 80px; min-width: 80px;}
+span.cnode:hover 					{z-index: 10;}
+.ctree .cnode.cmrca 				{background: #dadffe;}
+.ctree .cnode.cmatch 				{background: #c3f5f5;}
+.ctree .cnode.ctester 				{background: #f8d0fe;}
+.ctree .cnode.ccollapse 			{text-transform: uppercase; font-size: 9px; position: absolute; font-weight: 400; padding: 0px 6px; border-radius: 6px; border: 1px solid rgba(255,255,255,.25); background: #b61f1f; color: #fff; min-width: 20px; left: -20px; top: 35px; z-index: 9;}
+.ctree-narrow .cnode.ccollapse 		{left:-10px;}
+.ctree-condensed .cnode.ccollapse 	{left:-10px; top: 40px;}
+.ctree-compact .cnode.ccollapse, .ctree-packed .cnode.ccollapse {left:-10px; top: 50px;}
+.ctree .cnode.ctester .popover-title, .ctree .cnode.cmatch .popover-title {color:#333; min-width: 200px; max-width: 500px; width: 300px;}
+.ctree .cnode>.cvalue, .ctree .cnode>.cvalue2, .ctree .cnode>.cvalue3, .ctree .cnode>.cvalue4 {text-transform: uppercase; letter-spacing: 1px; font-size: 9px; position: absolute; font-weight: 400; top: -14px; padding: 0px 5px; right: -20px; border-radius: 6px;  border: 1px solid rgba(255,255,255,.25);  cursor: pointer; z-index: 1;}
+.ctree .cnode>.cvalue.coffset2, .ctree .cnode>.cvalue2.coffset2, .ctree .cnode>.cvalue3.coffset2, .ctree .cnode>.cvalue4.coffset2 {top: -8px; right: -26px; z-index: 2;}
+.ctree .cnode>.cvalue.coffset3, .ctree .cnode>.cvalue2.coffset3, .ctree .cnode>.cvalue3.coffset3, .ctree .cnode>.cvalue4.coffset3 {top: -2px; right: -32px; z-index: 2;}
+.ctree .cnode>.cvalue.coffset4, .ctree .cnode>.cvalue2.coffset4, .ctree .cnode>.cvalue3.coffset4, .ctree .cnode>.cvalue4.coffset4 {top: 4px; right: -38px; z-index: 2;}
+.ctree .cnode>.cvalue.coffset5, .ctree .cnode>.cvalue2.coffset5, .ctree .cnode>.cvalue3.coffset5, .ctree .cnode>.cvalue4.coffset5 {top: 10px; right: -42px; z-index: 2;}
+.ctree .cnode>.cvalue.coffset6, .ctree .cnode>.cvalue2.coffset6, .ctree .cnode>.cvalue3.coffset6, .ctree .cnode>.cvalue4.coffset6 {top: 16px; right: -48px; z-index: 2;}
+.ctree .cnode>.cvalue.coffset7, .ctree .cnode>.cvalue2.coffset7, .ctree .cnode>.cvalue3.coffset7, .ctree .cnode>.cvalue4.coffset7 {top: 22px; right: -54px; z-index: 2;}
+.ctree .cnode>.canchor 				{text-transform: uppercase; letter-spacing: 1px; font-size: 9px; position: absolute; font-weight: 400; top: -14px; right: 140px; padding: 0px 5px; border-radius: 6px; border: 1px solid rgba(255,255,255,.25); z-index: 1; background: #b61f1f; color: #fff;}
+.ctree-condensed .cnode>.canchor 	{right: 110px;}
+.ctree-compact .cnode>.canchor 		{right: 90px;}
+.ctree-packed .cnode>.canchor 		{right: 70px;}
+.ctree .cnode.ctester>.cvalue, .ctree .cnode.cmatch>.cvalue {background: #5f0a; color: #333;}
+.ctree .cnode.ctester>.cvalue2, .ctree .cnode.cmatch>.cvalue2 {background: #af0a; color: #333;}
+.ctree .cnode.ctester>.cvalue3, .ctree .cnode.cmatch>.cvalue3 {background: #ff0a; color: #333;}
+.ctree .cnode.ctester>.cvalue4, .ctree .cnode.cmatch>.cvalue4 {background: #ff0000c2; color: #fff;}
+.ctree .cname 						{max-height: 40px; overflow: hidden; display: block;}
+.ctree-compact .cname 				{max-height: 60px;}
+.ctree-packed .cname 				{max-height: 80px;}
+.ctree-narrow .cname 					{max-height: 60px;}
+.ctree-narrow .cname .gt-name:hover		{max-height: 100px; white-space:pre-wrap;}
+.ctree-condensed .cname 				{max-height: 60px;}
+.ctree-condensed .cname .gt-name:hover	{max-height: 100px; white-space:pre-wrap;}
+.ctree-compact .cname 					{max-height: 60px;}
+.ctree-compact .cname .gt-name:hover	{max-height: 100px; white-space:pre-wrap;}
+.ctree-packed .cname 					{max-height: 80px;}
+.ctree-packed .cname .gt-name:hover		{max-height: 120px; white-space:pre-wrap;}
+

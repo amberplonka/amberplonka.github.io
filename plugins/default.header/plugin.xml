@@ -1,0 +1,35 @@
+<Gigatrees>
+
+<Setup> 
+
+ <Header> <![CDATA[%PreHeader%
+<!DOCTYPE html>
+<html lang="%LangCode%">
+  <head>
+%DropHeader%
+    <style>
+%DropStyles%	
+    </style>
+%PageStyles%	
+  </head>
+	
+  <body class="sidebar-mini skin-blue hold-transition">
+%DropBody%
+    <div class="wrapper">
+      <header class="main-header">
+        <nav id="navbar" class="navbar navbar-static-top" %SiteBanner%>
+          <span id="navbar-toggle"><a class="sidebar-toggle" data-toggle="push-menu" role="button"><i class="fa fa-bars"></i><span class="sr-only">Toggle navigation</span></a></span>
+		  <a href="%HomePage%">
+		    <span id="gt-site-logo">%SiteLogo%</span>
+		    <span id="gt-site-avatar" class="pull-right">%Avatar%</span>
+  		    <span id="gt-site-title">%Heading%</span>
+		  </a>
+        </nav>
+      </header>
+%DropMenu%
+]]>
+ </Header>
+ 
+</Setup> 
+ 
+</Gigatrees>

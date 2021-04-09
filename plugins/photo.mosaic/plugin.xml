@@ -1,0 +1,22 @@
+<Gigatrees>
+
+<Setup> 
+ <DropHeader> <![CDATA[ 
+<!-- Sortable Photos -->  
+	<style>
+		.gimage img {max-width: 300px;}
+	</style> 
+]]>
+ </DropHeader>
+ 
+ <DropFooter> <![CDATA[ 
+<!-- Sortable Photos -->  
+	<script type="text/javascript" src="%PluginsPath%photo.mosaic/jquery-sortable-photos.js"></script>
+	<script type="text/javascript">
+		$('.gallery').sortablePhotos({selector: '> .gimage', padding: 5});
+	</script>
+]]> 
+ </DropFooter>
+</Setup> 
+ 
+</Gigatrees>

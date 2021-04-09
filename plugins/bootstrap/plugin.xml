@@ -1,0 +1,20 @@
+<Gigatrees>
+
+<Setup> 
+
+ <DropHeader> <![CDATA[ 
+    <!-- Bootstrap 3 --> 
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+]]>
+ </DropHeader>
+ 
+ <DropFooter> <![CDATA[ 
+    <!-- Bootstrap 3 --> 
+	<script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="%PluginsPath%bootstrap/bootstrap-tooltip-handler.js"></script>
+]]>
+ </DropFooter>
+ 
+</Setup> 
+ 
+</Gigatrees>

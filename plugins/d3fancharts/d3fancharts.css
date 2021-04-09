@@ -1,0 +1,40 @@
+		#d3fanchart 				{position:relative; z-index: 100; padding-top:20px;}
+		#d3fanchart #description 	{position:absolute; z-index:-1!important; text-align:center;}
+		#d3fanchart #description ul {list-style:none; margin-left:0px; padding-left:0px;}
+		#d3fanchart #caption 		{margin-top:1.7rem; margin-bottom:1.7rem; padding:0 130px;}
+		#d3fanchart .capname 		{font-size:1.5rem; color:#286c9f;}
+		#d3fanchart .capnote 		{font-size:1.3rem;}
+		#d3fanchart #breadcrumbs 	{word-break:break-word;}
+		#d3fanchart #breadcrumbs li	{margin-top:1.5rem;}
+		#d3fanchart .relationship 	{font-size:1.3rem; color:black;}
+		#d3fanchart .ancestor 		{font-size:1.5rem;}
+
+		@media only screen and (max-width: 1024px) {
+			#d3fanchart #breadcrumbs li	{margin-top:1.0qrem;}
+			#d3fanchart .capname 		{font-size:1.2rem;}
+			#d3fanchart .capnote 		{font-size:1.0rem;}
+			#d3fanchart .relationship 	{font-size:1.0rem;}
+			#d3fanchart .ancestor 		{font-size:1.2rem;}
+		}		
+		@media only screen and (max-width: 992px) {
+			#d3fanchart #breadcrumbs li	{margin-top:.9qrem;}
+			#d3fanchart .capname 		{font-size:1.1rem;}
+			#d3fanchart .capnote 		{font-size:.9rem;}
+			#d3fanchart .relationship 	{font-size:.9rem;}
+			#d3fanchart .ancestor 		{font-size:1.1rem;}
+		}		
+		@media only screen and (max-width: 768px) {
+			#d3fanchart #caption 		{padding:0 100px;}
+			#d3fanchart #breadcrumbs li	{margin-top:.9rem;}
+			#d3fanchart .capname 		{font-size:1.1rem;}
+			#d3fanchart .capnote 		{font-size:.9rem;}
+			#d3fanchart .relationship 	{font-size:.9rem;}
+			#d3fanchart .ancestor 		{font-size:1.1rem;}
+		}
+		@media only screen and (max-width: 520px) {
+			#d3fanchart #breadcrumbs li	{margin-top:.7rem;}
+			#d3fanchart .capname 		{font-size:.9rem;}
+			#d3fanchart .capnote 		{font-size:.7rem;}
+			#d3fanchart .relationship 	{font-size:.7rem;}
+			#d3fanchart .ancestor 		{font-size:.9rem;}			
+		}			

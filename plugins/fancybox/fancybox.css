@@ -1,0 +1,9 @@
+@media all and (min-width: 800px) {
+	.fancybox-custom-layout .fancybox-toolbar {background: #3b3b45; bottom: 0; left: auto; right: 0; top: 0; width: 44px;}
+	.fancybox-custom-layout .fancybox-caption {padding: 25px 44px 10px 44px;}
+	.fancybox-custom-layout .fancybox-button {background: transparent;}
+	.fancybox-custom-layout .fancybox-navigation .fancybox-button div {padding: 2px;}
+	.fancybox-custom-layout .fancybox-button--arrow_right {right: 44px;}
+}
+.fancybox-caption a, .fancybox-caption a:link, .fancybox-caption a:visited {color: #4B718A;}
+.fancybox-caption a:hover {text-decoration: underline;}
